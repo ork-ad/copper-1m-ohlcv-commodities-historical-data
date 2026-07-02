@@ -150,4 +150,4 @@ The complete **COPPER** archive on **[ork.ad](https://ork.ad/)** includes **13 O
 **[→ Get the full COPPER dataset on ork.ad](https://ork.ad/)**
 
 ---
-*GetData · COPPER 1m OHLCV sample on GitHub · Full historical data on [ork.ad](https://ork.ad/) · 2026-07-01 UTC*
+*GetData · COPPER 1m OHLCV sample on GitHub · Full historical data on [ork.ad](https://ork.ad/) · 2026-07-02 UTC*
