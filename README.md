@@ -1,10 +1,10 @@
 # COPPER 1m OHLCV Commodities Historical Data — Free Sample
 
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE) [![Dataset rows](https://img.shields.io/badge/full_dataset-4_550_201_rows-blue)](https://ork.ad/) [![Updated](https://img.shields.io/badge/weekly_update-every_Sunday-green)]() [![Full data on ork.ad](https://img.shields.io/badge/download-ork.ad-orange)](https://ork.ad/)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE) [![Dataset rows](https://img.shields.io/badge/full_dataset-4_551_305_rows-blue)](https://ork.ad/) [![Updated](https://img.shields.io/badge/weekly_update-every_Sunday-green)](https://ork.ad/) [![Full data on ork.ad](https://img.shields.io/badge/download-ork.ad-orange)](https://ork.ad/)
 
 ### → [**Download the full COPPER dataset on ork.ad**](https://ork.ad/)
 
-**COPPER 1m OHLCV Commodities historical data** — ultra high-quality one-minute OHLCV for **Copper**. Extended-session energy and industrial metals — beyond US cash hours. Clean `time, open, high, low, close, volume` CSV for backtesting, algorithmic trading and quantitative research.
+**COPPER 1m OHLCV Commodities historical data** — ultra high-quality 1m OHLCV for **Copper**. Extended-session energy and industrial metals — beyond US cash hours. Clean `time, open, high, low, close, volume` CSV for backtesting, algorithmic trading and quantitative research.
 
 ## Table of contents
 
@@ -21,14 +21,14 @@
 
 ## Why this dataset?
 
-- **Ultra high-quality 1-minute OHLCV** for **Copper** (Commodities)
+- **Ultra high-quality 1m OHLCV** for **Copper** (Commodities)
 - **Extended-session energy and industrial metals — beyond US cash hours**
 - **Clean CSV schema** — `time, open, high, low, close, volume` (no gaps in formatting)
-- **Free evaluation sample** on GitHub (`1m` only) · **13 timeframes** on [ork.ad](https://ork.ad/) · **4,550,201** `1m` rows in the full archive
+- **Free evaluation sample** on GitHub (`1m`) · **13 timeframes** on [ork.ad](https://ork.ad/) · **4,551,305** `1m` rows in the full archive
 - Built for **backtesting**, **algorithmic trading** and **quantitative finance** workflows
 - **Weekly refresh** — [ork.ad](https://ork.ad/) every **Sunday**; GitHub `1m` sample updated in sync
 
-> **Sample on GitHub** · `COPPER_1m.csv` (175,286 rows, `2026-01-04` → `2026-07-02`). **Full archive on [ork.ad](https://ork.ad/)** — **4,550,201** `1m` rows (~235.51 MB), **13 timeframes** (``1m`, `3m`, `5m`, `15m`, `30m`, `1H`, `2H`, `4H`, `8H`, `12H`, `16H`, `1D`, `1W``), `2011-08-28` → `2026-07-02`.
+> **Sample on GitHub** · `COPPER_1m.csv` (176,390 rows, `2026-01-04` → `2026-07-03`). **Full archive on [ork.ad](https://ork.ad/)** — **4,551,305** `1m` rows (~216.68 MB), **13 timeframes** (``1m`, `3m`, `5m`, `15m`, `30m`, `1H`, `2H`, `4H`, `8H`, `12H`, `16H`, `1D`, `1W``), `2011-08-28` → `2026-07-03`.
 
 ## Download sample
 
@@ -43,16 +43,16 @@ Interactive chart & stats: **[https://ork-ad.github.io/copper-1m-ohlcv-commoditi
 | | **Sample (this repo)** | **Full dataset ([ork.ad](https://ork.ad/))** |
 |---|--:|---|
 | Instrument | Copper · Commodities | Copper · Commodities |
-| Timeframes | `1m` only (sample) | **13** — `1m`, `3m`, `5m`, `15m`, `30m`, `1H`, `2H`, `4H`, `8H`, `12H`, `16H`, `1D`, `1W` |
-| 1m rows | 175,286 | **4,550,201** |
-| Size | 9.38 MB | ~235.51 MB |
-| Period | `2026-01-04` → `2026-07-02` | `2011-08-28` → `2026-07-02` |
+| Timeframes | `1m` (sample) | **13** — `1m`, `3m`, `5m`, `15m`, `30m`, `1H`, `2H`, `4H`, `8H`, `12H`, `16H`, `1D`, `1W` |
+| 1m rows | 176,390 | **4,551,305** |
+| Size | 8.62 MB | ~216.68 MB |
+| Period | `2026-01-04` → `2026-07-03` | `2011-08-28` → `2026-07-03` |
 | File | `COPPER_1m.csv` | ZIP on [ork.ad](https://ork.ad/) |
 | Updates | Weekly (Sunday) — GitHub sample | Weekly (Sunday) — all timeframes |
 
 ## Timeframes on ork.ad
 
-This GitHub repository ships a **1-minute (`1m`) evaluation sample** only. On **[ork.ad](https://ork.ad/)**, each full asset archive is delivered as a ZIP with **13 gap-free OHLCV timeframes** (one CSV per timeframe):
+This GitHub repository ships a **`1m` evaluation sample** only. On **[ork.ad](https://ork.ad/)**, each full asset archive is delivered as a ZIP with **13 gap-free OHLCV timeframes** (one CSV per timeframe):
 
 **1m** · **3m** · **5m** · **15m** · **30m** · **1H** · **2H** · **4H** · **8H** · **12H** · **16H** · **1D** · **1W**
 
@@ -61,7 +61,7 @@ GitHub = `1m` sample · [ork.ad](https://ork.ad/) = all **13** timeframes above 
 ## Weekly updates
 
 - **[ork.ad](https://ork.ad/)** — Full datasets on ork.ad are updated every Sunday.
-- **GitHub (this repo)** — GitHub 1m samples are refreshed weekly (every Sunday), in sync with ork.ad.
+- **GitHub (this repo)** — GitHub samples are refreshed weekly (every Sunday), in sync with ork.ad.
 
 When a new `1m` sample is published on GitHub, the README, chart preview and CSV reflect the latest week of data.
 
@@ -73,21 +73,21 @@ First and latest rows from the GitHub sample **`COPPER_1m.csv`**:
 
 | time | open | high | low | close | volume |
 | --- | --- | --- | --- | --- | --- |
-| 2026-01-04T23:01:00Z | 5.7011 | 5.71586 | 5.7011 | 5.71376 | 38 |
-| 2026-01-04T23:02:00Z | 5.71376 | 5.71496 | 5.71146 | 5.71276 | 39 |
-| 2026-01-04T23:03:00Z | 5.71276 | 5.71646 | 5.71146 | 5.71526 | 36 |
-| 2026-01-04T23:04:00Z | 5.71526 | 5.72176 | 5.71526 | 5.72176 | 43 |
-| 2026-01-04T23:05:00Z | 5.72176 | 5.72776 | 5.72156 | 5.72736 | 43 |
+| 2026-01-04T23:01:00Z | 5.702 | 5.7163 | 5.702 | 5.7142 | 38 |
+| 2026-01-04T23:02:00Z | 5.7142 | 5.7154 | 5.7119 | 5.7132 | 39 |
+| 2026-01-04T23:03:00Z | 5.7132 | 5.7169 | 5.7119 | 5.7157 | 36 |
+| 2026-01-04T23:04:00Z | 5.7157 | 5.7222 | 5.7157 | 5.7222 | 43 |
+| 2026-01-04T23:05:00Z | 5.7222 | 5.7282 | 5.722 | 5.7278 | 43 |
 
 **Last rows**
 
 | time | open | high | low | close | volume |
 | --- | --- | --- | --- | --- | --- |
 | time | open | high | low | close | volume |
-| 2026-07-02T22:29:00Z | 6.1697 | 6.1697 | 6.1691 | 6.1691 | 2.00 |
-| 2026-07-02T22:30:00Z | 6.1691 | 6.1715 | 6.1691 | 6.1713 | 9.00 |
-| 2026-07-02T22:31:00Z | 6.1713 | 6.172 | 6.1713 | 6.172 | 2.00 |
-| 2026-07-02T22:32:00Z | 6.172 | 6.1722 | 6.172 | 6.1722 | 1.00 |
+| 2026-07-03T16:55:00Z | 6.224 | 6.2244 | 6.2234 | 6.2244 | 23 |
+| 2026-07-03T16:56:00Z | 6.2244 | 6.2244 | 6.2238 | 6.2238 | 11 |
+| 2026-07-03T16:57:00Z | 6.2238 | 6.225 | 6.2232 | 6.2244 | 15 |
+| 2026-07-03T16:58:00Z | 6.2244 | 6.2258 | 6.2244 | 6.2252 | 11 |
 
 ## Schema
 
@@ -145,9 +145,9 @@ print(pf.stats())
 
 ## Download full data
 
-The complete **COPPER** archive on **[ork.ad](https://ork.ad/)** includes **13 OHLCV timeframes** (`1m`, `3m`, `5m`, `15m`, `30m`, `1H`, `2H`, `4H`, `8H`, `12H`, `16H`, `1D`, `1W`) — **4,550,201** rows at `1m`, plus all higher timeframes in the same ZIP.
+The complete **COPPER** archive on **[ork.ad](https://ork.ad/)** includes **13 OHLCV timeframes** (`1m`, `3m`, `5m`, `15m`, `30m`, `1H`, `2H`, `4H`, `8H`, `12H`, `16H`, `1D`, `1W`) — **4,551,305** rows at `1m`, plus all other timeframes in the same ZIP.
 
 **[→ Get the full COPPER dataset on ork.ad](https://ork.ad/)**
 
 ---
-*GetData · COPPER 1m OHLCV sample on GitHub · Full historical data on [ork.ad](https://ork.ad/) · 2026-07-03 UTC*
+*GetData · COPPER 1m OHLCV sample on GitHub · Full historical data on [ork.ad](https://ork.ad/) · 2026-07-06 UTC*
